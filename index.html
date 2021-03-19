@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore New York| Exploring.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+     <link rel="stylesheet"  href="phone.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="">
+
+        </div>
+        <ul>
+            <li class="item"><a href=""><i class="fa fa-home"></i>Home</a></li>
+            <li class="item"><a href=""><i class="fa fa-cog"></i>Services</a></li>
+            <li class="item"><a href=""><i class="fa fa-user"></i>About Us</a></li>
+            <li class="item"><a href=""><i class="fa fa-address-book"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="home-section">
+            <div id="most">
+            <h1 class="h-primary">Explore New York In A New Way</h1>
+            <p class="p-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, delectus!</p>
+            <p class="p-primary">Lorem ipsum dolor sit amet.</p></div>
+            <button class="btn" id ="cta" onclick="toggleshow()">Explore More</button>
+
+
+        </div>
+
+
+        </div>
+    </section>
+    <section id="service-section">
+        <h1 class="h-primary">Our Services</h1>
+        <div id="service">
+            <div class="box">
+                <img src="img/food.png " alt="">
+                <h2 class="h-secondary">Restaurants</h2>
+                <p class="p-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad maiores quaerat
+                    exercitationem iusto qui voluptatum aliquid, consequuntur totam nemo ullam.</p>
+                <p class="p-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, at.</p>
+            </div>
+            <div class="box">
+                <img src="img/hotel.png " alt="">
+                <h2 class="h-secondary">Hotels</h2>
+                <p class="p-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro dolore eveniet hic
+                    qui veniam maiores atque consequuntur earum numquam ipsam.</p>
+                <p class="p-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, repellendus?
+                </p>
+            </div>
+            <div class="box">
+                <img src="img/taxi.png " alt="">
+                <h2 class="h-secondary">Taxi</h2>
+                <p class="p-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptatum magni
+                    similique et tenetur alias incidunt perferendis eum sed quibusdam.</p>
+                <p class="p-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nihil?
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary">Our Clients</h1>
+        <div id="clients">
+            <div class="box1">
+                <img src="img/client1.png" alt="">
+            </div>
+            <div class="box1">
+                <img src="img/client2.png" alt="">
+            </div>
+            <div class="box1">
+                <img src="img/client3.png" alt="">
+            </div>
+            <div class="box1">
+                <img src="img/client4.png" alt="">
+            </div>
+            <div class="box1">
+                <img src="img/client5.png" alt="">
+            </div>
+    </section>
+    <section id="contact-section">
+        <h1 class="h-primary">Contact Us</h1>
+        <div id="contact">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="name">E-Mail:</label>
+                    <input type="email" name="name" id="email" placeholder="enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Phone No.:</label>
+                    <input type="number" name="name" id="phone" placeholder="enter your phone no.">
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Message:</label>
+                    <textarea name="message" id="text" cols="30" rows=8></textarea>
+                </div>
+                <div class="btn1">
+                    <buton class="Submit">Submit</buton>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy;| All rights reserved.WWW.explore.com
+        </div>
+    </footer>
+<script>
+    function toggleshow() {
+        let a= document.getElementById("cta");
+        let b = document.getElementById("most");
+        if (b.style.display != "none") {
+            b.style.display = "none";
+        }
+        else{
+            b.style.display = "block"
+        }
+    }
+</script>
+
+</body>
+
+</html>
